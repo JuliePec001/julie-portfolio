@@ -42,7 +42,7 @@
             margin: 0;
             padding: 0;
             width: 100%;
-            
+
             display: flex;
             flex-direction: column;
             background-color: rgb(54, 54, 150); /* border color as background */
@@ -147,14 +147,28 @@
         }
 
         @media (max-width: 768px) {
+             html, body {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                overflow-x: hidden;
+            }
+
             nav a {
                 font-size: 14px;
             }
+
             .container {
                 margin: 0;
                 padding: 0;
                 width: 100%;  /* ensure container uses full viewport width */
             }
+
+            header, footer {
+                width: 100%;
+                margin: 0;
+            }
+            
         }
 
         @media (max-width: 480px) {
