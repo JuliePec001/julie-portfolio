@@ -50,6 +50,7 @@
             flex-direction: column;
             background-color: aliceblue;
             margin: 0 2vw; /* creates left/right “border” space */
+            padding: 0;
         }
 
         /* Main content should grow to take available space */
@@ -69,6 +70,12 @@
 
         main h2 a:hover {
           text-decoration: underline; /* add underline on hover */
+        }
+
+        header, footer {
+            width: 100vw;         /* full viewport width */
+            box-sizing: border-box; /* include padding in width */
+            margin: 0;             /* remove any margin */
         }
 
         /* Footer styling */
@@ -138,10 +145,17 @@
             nav a {
                 font-size: 14px;
             }
+            .container {
+                margin: 0; /* remove side margins on phones */
+            }
         }
 
         @media (max-width: 480px) {
             nav a {
                 font-size: 12px;
+            }
+
+            .container {
+                margin: 0; /* remove side margins on phones */
             }
         }
