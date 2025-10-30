@@ -78,6 +78,10 @@
             padding: 2.5vw 0;
         }
 
+        header {
+             background-color: rgb(54, 54, 150);
+        }
+
         header h1 {
             width: 100%;        /* full width */
             margin: 0 0 10px 0; /* bottom margin for spacing */
