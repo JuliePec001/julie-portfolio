@@ -39,6 +39,10 @@
         }
 
        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            
             display: flex;
             flex-direction: column;
             background-color: rgb(54, 54, 150); /* border color as background */
@@ -148,6 +152,7 @@
             }
             .container {
                 margin: 0;
+                padding: 0;
                 width: 100%;  /* ensure container uses full viewport width */
             }
         }
