@@ -42,6 +42,7 @@
             display: flex;
             flex-direction: column;
             background-color: rgb(54, 54, 150); /* border color as background */
+            overflow-x: hidden;  /* hide any horizontal overflow */
         }
 
         .container {
@@ -73,7 +74,7 @@
         }
 
         header, footer {
-            width: 100vw;         /* full viewport width */
+            width: 100%;         /* full viewport width */
             box-sizing: border-box; /* include padding in width */
             margin: 0;             /* remove any margin */
         }
@@ -146,7 +147,8 @@
                 font-size: 14px;
             }
             .container {
-                margin: 0; /* remove side margins on phones */
+                margin: 0;
+                width: 100%;  /* ensure container uses full viewport width */
             }
         }
 
