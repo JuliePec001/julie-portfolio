@@ -15,7 +15,9 @@ const translations = {
     "titre-me" : "About Me",
     "titre-video" : "Video Game Projects",
     "titre-theatre" : "Theatre Set & Costume Design",
-    "titre-code" : "Programming Projects"
+    "titre-code" : "Programming Projects",
+    "nav-Other" : "Other",
+    "nav-video" : "Video Games"
 
   },
   fr: {
@@ -27,7 +29,9 @@ const translations = {
     "titre-me" : "À Propos de Moi",
     "titre-video" : "Projets de Jeu Vidéo",
     "titre-theatre" : "Conception de Décors et de Costumes de Théâtre",
-    "titre-code" : "Projets de Programmation"
+    "titre-code" : "Projets de Programmation",
+    "nav-Other" : "Autres",
+    "nav-video" : "Jeux Vidéo"
   }
 };
 
