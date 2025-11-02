@@ -1,196 +1,194 @@
 @media (max-width: 1920px) {
-    nav {
-        padding: 5px;
-        background-color: rgb(129, 156, 245);
-    }
+  nav {
+    padding: 5px;
+    background-color: rgb(129, 156, 245);
+  }
 
-    nav a {
-        text-decoration: none;
-        color: black;
-        padding: 7px 12px;
-        transition: background-color 0.3s;
-    }
+  nav a {
+    text-decoration: none;
+    color: black;
+    padding: 7px 12px;
+    transition: background-color 0.3s;
+  }
 
-    nav a:hover {
-        background-color: rgba(240, 248, 255, 0.7);
-        /* light hover */
-    }
+  nav a:hover {
+    background-color: rgba(240, 248, 255, 0.7);
+    /* light hover */
+  }
 
-    nav a.active {
-        background-color: aliceblue;
-        color: rgb(54, 54, 150);
-        font-weight: bold;
-    }
+  nav a.active {
+    background-color: aliceblue;
+    color: rgb(54, 54, 150);
+    font-weight: bold;
+  }
 
-    .nav-placeholder {
-        display: inline-block;
-        width: 8ch;
-        /* adjust this width as needed */
-        text-align: center;
-    }
+  .nav-placeholder {
+    display: inline-block;
+    width: 8ch;
+    /* adjust this width as needed */
+    text-align: center;
+  }
 
-    /* Ensure the body takes full height and uses flex column layout */
-    html,
-    body {
-        height: 100%;
-        margin: 0;
-    }
+  /* Ensure the body takes full height and uses flex column layout */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+  }
 
-    body {
-        display: flex;
-        flex-direction: column;
-        background-color: rgb(54, 54, 150);
-        /* border color as background */
-    }
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(54, 54, 150);
+    /* border color as background */
+  }
 
-    .container {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        background-color: aliceblue;
-        margin: 0 2vw;
-        /* creates left/right “border” space */
-    }
+  .container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    margin: 0 2vw;
+    /* creates left/right “border” space */
+  }
 
-    /* Main content should grow to take available space */
-    main {
-        flex: 1;
-        padding: 10px 6px;
-    }
+  /* Main content should grow to take available space */
+  main {
+    flex: 1;
+    padding: 10px 6px;
+  }
 
-    main h2 a {
-        text-decoration: none;
-        /* remove default underline */
-        color: inherit;
-        /* keep same text color */
-        cursor: pointer;
-        /* show hand cursor */
-        display: inline-block;
-        /* make link area clickable */
-        z-index: 10;
-        /* ensure it’s above other elements */
-        position: relative;
-        /* for z-index to work */
-    }
+  main h2 a {
+    text-decoration: none;
+    /* remove default underline */
+    color: inherit;
+    /* keep same text color */
+    cursor: pointer;
+    /* show hand cursor */
+    display: inline-block;
+    /* make link area clickable */
+    z-index: 10;
+    /* ensure it’s above other elements */
+    position: relative;
+    /* for z-index to work */
+  }
 
-    main h2 a:hover {
-        text-decoration: underline;
-        /* add underline on hover */
-    }
+  main h2 a:hover {
+    text-decoration: underline;
+    /* add underline on hover */
+  }
 
-    /* Footer styling */
-    footer {
-        background-color: rgb(54, 54, 150);
-        color: white;
-        text-align: center;
-        padding: 2.5vw 0;
-    }
+  /* Footer styling */
+  footer {
+    background-color: rgb(54, 54, 150);
+    color: white;
+    text-align: center;
+    padding: 2.5vw 0;
+  }
 
-    header h1 {
-        width: 100%;
-        /* full width */
-        margin: 0 0 10px 0;
-        /* bottom margin for spacing */
-    }
+  header h1 {
+    width: 100%;
+    /* full width */
+    margin: 0 0 10px 0;
+    /* bottom margin for spacing */
+  }
 
-    header .select-container {
-        display: flex;
-        justify-content: flex-end;
-        /* push select to the right */
-        padding-bottom: 0.5vw;
-    }
+  header .select-container {
+    display: flex;
+    justify-content: flex-end;
+    /* push select to the right */
+    padding-bottom: 0.5vw;
+  }
 
-    /* header .header-row { display: flex; justify-content: space-between; align-items: center; padding: 0 1vw; } header h2 { margin: 0; } */
-    table {
-        border-collapse: collapse;
-        width: 100%;
-    }
+  /* header .header-row { display: flex; justify-content: space-between; align-items: center; padding: 0 1vw; } header h2 { margin: 0; } */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
 
-    td {
-        vertical-align: top;
-        /* keeps text aligned at the top */
-        padding: 5px;
-        /* minimal padding */
-    }
+  td {
+    vertical-align: top;
+    /* keeps text aligned at the top */
+    padding: 5px;
+    /* minimal padding */
+  }
 
-    table h1 {
-        font-size: 1.8rem;
-        /* fixed size that doesn’t change */
-        margin: 0;
-        /* remove default spacing */
-        padding: 0;
-        /* remove internal padding */
-    }
+  table h1 {
+    font-size: 1.8rem;
+    /* fixed size that doesn’t change */
+    margin: 0;
+    /* remove default spacing */
+    padding: 0;
+    /* remove internal padding */
+  }
 
-    .mainPresentation{
-        max-width: 900px;
-        margin: auto; 
-        font-family: sans-serif; 
-        padding: 20px;
-    }
+  .mainPresentation {
+    max-width: 900px;
+    margin: auto;
+    font-family: sans-serif;
+    padding: 20px;
+  }
 
-    .sectionCover{
-        text-align: center; 
-        margin-bottom: 30px;
-        padding-bottom: 2vw;
-        
-    }
+  .sectionCover {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 2vw;
+  }
 
-    .cover-image {
-    width: 40vw;        /* 80% of the viewport width */
-    max-width: 700px;  /* cap the max size */
-    height: auto;       /* maintain aspect ratio */
+  .cover-image {
+    width: 40vw; /* 80% of the viewport width */
+    max-width: 700px; /* cap the max size */
+    height: auto; /* maintain aspect ratio */
     border-radius: 10px;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
-    }
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
 
-    /* Section styling */
-.screenshots {
+  /* Section styling */
+  .screenshots {
     margin-bottom: 30px;
     text-align: center;
     padding-bottom: 2vw;
-}
+  }
 
-/* Table styling */
-.screenshots-table {
+  /* Table styling */
+  .screenshots-table {
     margin: auto;
     border-spacing: 15px;
-}
+  }
 
-/* Images inside the table */
-.screenshots-table img {
+  /* Images inside the table */
+  .screenshots-table img {
     width: 25vw;
     height: 15vw;
     border-radius: 8px;
-}
+  }
 
-/* Captions under each image */
-.screenshots-table p {
+  /* Captions under each image */
+  .screenshots-table p {
     font-size: 0.9em;
     margin-top: 5px;
-}
+  }
 
-
-nav a {
+  nav a {
     font-size: 18px;
     /* default */
-}
+  }
 }
 
 @media (max-width: 1024px) {
-    nav a {
-        font-size: 16px;
-    }
+  nav a {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 768px) {
-    nav a {
-        font-size: 14px;
-    }
+  nav a {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 480px) {
-    nav a {
-        font-size: 12px;
-    }
+  nav a {
+    font-size: 12px;
+  }
 }
