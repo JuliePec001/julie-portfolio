@@ -160,8 +160,7 @@
 /* Images inside the table */
 .screenshots-table img {
     width: 25vw;
-    height: 20vw;
-    height: auto;
+    height: 15vw;
     border-radius: 8px;
 }
 
